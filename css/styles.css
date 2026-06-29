@@ -2,9 +2,50 @@
   margin: 0;
   box-sizing: border-box;
 }
-main {
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  color: white;
+  width: 1000px;
+  padding: 10px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 1000px;
+}
+main h2 {
+  padding-left: 200px;
+  margin: 20px;
+}
+.contenido {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  width: 1000px;
+}
+.perfil {
+  border: 2px solid black;
+  padding: 20px;
+}
+.perfil img {
+  width: 120px;
+  border-radius: 100px;
+}
+.posteos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
 }
 .posteo {
   border: 3px solid black;
@@ -13,7 +54,6 @@ main {
   display: flex;
   justify-content: space-between;
   background-color: #f4f4f4;
-  width: 900px;
 }
 
 .izquierda h1 {
