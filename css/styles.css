@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.posteo {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  width: 900px;
+}
+
+.izquierda h1 {
+  margin-bottom: 15px;
+}
+.derecha {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.derecha p {
+  margin-top: 10px;
+}
+
+.me-gusta {
+  background-color: #ffd700;
+  border: none;
+  height: 35px;
+  width: 70px;
+  border-radius: 5px;
+  font-weight: bold;
+}
